@@ -1,0 +1,2 @@
+# sports-person-classifier
+"📸 A sports person image classification project organizing facial images of ⚽ Messi, ⚽ Ronaldo, 🏏 Virat Kohli, 🏏 Ricky Ponting, and 🏏 Chris Gayle for machine learning model training 🤖."
