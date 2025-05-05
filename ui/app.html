@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Celebrity Image Classifier</title>
+  <link rel="stylesheet" href="app.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Celebrity Image Classifier</h1>
+    
+    <div id="drop-area">
+      <form id="upload-form">
+        <p>Drag & drop a photo of Chris Gayle, Messi, Ronaldo, Ricky Ponting, or Virat Kohli</p>
+        <input type="file" id="fileElem" accept="image/*" required>
+        <label class="button" for="fileElem">Browse</label>
+        <img id="preview" alt="Image preview will appear here"/>
+        <button type="submit">Classify</button>
+      </form>
+    </div>
+
+    <div id="result" class="hidden"></div>
+    <div id="error" class="error hidden"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
