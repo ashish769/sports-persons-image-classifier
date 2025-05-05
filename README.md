@@ -23,26 +23,26 @@ Result Display: Shows the predicted celebrity name and a reference image.
 
 Error Handling: Provides feedback if no face is detected or an error occurs.
 ## 🛠️ Installation
-# 1.clone the repository
-'''bash
+ 1.clone the repository
+
 git clone https://github.com/ashish769/sports-person-classifier.git
 cd sports-person-classifier
-'''
-# 2.Create a Virtual Environment
-'''bash
+
+ 2.Create a Virtual Environment
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-'''
-# 3.Install Dependencies
-'''bash
+```
+ 3.Install Dependencies
+```bash
 pip install -r requirement.txt
-'''
+```
 # Running the Application
-# 1.Start the Flask Server
-'''bash
+ 1.Start the Flask Server
+```bash
 python server.py
-'''
-# 2.Access the Web Interface
+```
+2.Access the Web Interface
 Open your web browser and navigate to http://127.0.0.1:5000/
 
 ## Model Details
