@@ -24,14 +24,17 @@ Result Display: Shows the predicted celebrity name and a reference image.
 Error Handling: Provides feedback if no face is detected or an error occurs.
 ## 🛠️ Installation
  1.clone the repository
-
+```bash
 git clone https://github.com/ashish769/sports-person-classifier.git
 cd sports-person-classifier
+```
 
  2.Create a Virtual Environment
 ```bash
 python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+source venv/bin/activate
+# On Windows:
+venv\Scripts\activate
 ```
  3.Install Dependencies
 ```bash
@@ -43,7 +46,9 @@ pip install -r requirement.txt
 python server.py
 ```
 2.Access the Web Interface
+```bash
 Open your web browser and navigate to http://127.0.0.1:5000/
+```bash
 
 ## Model Details
 Preprocessing: Images are converted to grayscale, and faces with at least two eyes are detected.
