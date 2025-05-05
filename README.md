@@ -48,7 +48,7 @@ python server.py
 2.Access the Web Interface
 ```bash
 Open your web browser and navigate to http://127.0.0.1:5000/
-```bash
+```
 
 ## Model Details
 Preprocessing: Images are converted to grayscale, and faces with at least two eyes are detected.
