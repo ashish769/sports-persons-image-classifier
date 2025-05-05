@@ -92,5 +92,9 @@ def get_b64_test_image_for_messi():
         return f.read()
 if __name__=="__main__":
     load_saved_artifacts()
-    print(classify_image(get_b64_test_image_for_messi(),None))
+    # print(classify_image(get_b64_test_image_for_messi(),None))
+    print(classify_image(None,'./test-images/000005.jpg'))
     
+    print(classify_image(None,'./test-images/000013.jpg'))
+    print(classify_image(None,'./test-images/000032.jpg'))
+    print(classify_image(None,'./test-images/000040.jpg'))
